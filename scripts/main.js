@@ -78,10 +78,9 @@ if (knobUD) {
 //make sure the grid is made out of the borders given to the rows and columns
 //make the continers clickable and change the background to black based on that
 //finally implement knob logic that changes the velocity of the active cursor based on the distance turned by the knob
-//make row slider -----------------------------------------------------------------------                                        1
 var gridcount = document.getElementById("myRange").value;
 var gridSlider = document.getElementById("myRange");
-function updateGridCount(gridCt) {
+function updateGridCountSlider(gridCt) {
     console.log("TEST CASE PASSED!" + gridcount);
     if (gridcount) {
         var scaleText = document.getElementById("scale");
@@ -97,9 +96,9 @@ function updateGridCount(gridCt) {
     }
 }
 if (gridSlider) {
-    gridSlider.addEventListener('mouseup', function () {
+    gridSlider.addEventListener('mousemove', function () {
         gridcount = document.getElementById("myRange").value;
-        updateGridCount(parseInt(gridcount));
+        updateGridCountSlider(parseInt(gridcount));
     });
 }
 //make color slider -----------------------------------------------------------------------                                       3

@@ -136,8 +136,8 @@ body .column {
 }
 #content #board-container canvas {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  width: 80%;
-  height: 80%;
+  width: 570px;
+  height: 570px;
   overflow: hidden;
   background-color: aliceblue;
   z-index: 0;
