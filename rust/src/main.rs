@@ -29,6 +29,7 @@ async fn main() {
             if num >= gridlength{
                 row = (num/gridlength).floor()
             }
+             //draw_rectangle_lines((num % gridlength) *  screen_width/gridlength, row * screen_height/gridlength, screen_width/gridlength, screen_height, screen_width/gridlength/10.0, LIGHTGRAY);
             if *_i == 0{
 
                 draw_rectangle((num % gridlength) *  screen_width/gridlength, row * screen_height/gridlength, screen_width/gridlength, screen_height, Color::new(245.0, 195.0, 150.0, 1.0));
@@ -36,8 +37,6 @@ async fn main() {
             if *_i == 1{
                 draw_rectangle((num % gridlength) *  screen_width/gridlength, row * screen_height/gridlength, screen_width/gridlength, screen_height, BLACK);
             }
-            draw_rectangle_lines((num % gridlength) *  screen_width/gridlength, row * screen_height/gridlength, screen_width/gridlength, screen_height, screen_width/gridlength/10.0, BLACK);
-
         }
 
 
