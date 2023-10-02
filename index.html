@@ -15,7 +15,8 @@
         </div>
         <div class="row" id="content">
             <div class="row" id="board-container">
-                <div class="row" id="board"></div>
+                <canvas id="glcanvas" tabindex='1'></canvas>
+                <!-- <div class="row" id="board"></div> -->
             </div>
             <div class="row" id="controls">
                 <div class="trapezoid"></div>
@@ -24,7 +25,14 @@
                         <div class="knob_inner_pointer" id="knobLR-pointer"></div>
                       </div>
                 </div>
-                <div class="row" id="sliderbar-container"></div>
+                <div class="row" id="sliderbar-container">
+
+                    <div id="scale"> Grid Scale: </div>
+
+                    <input type="range" min="1" max="1000" value="50" class="slider" id="myRange">
+                    <p>Color: <input type="color" id="current-color"> </p> 
+                </div>
+                
                 <div class="row" id="updown-controls">
                     <div class="knob_inner" id="knobUD-inner">
                         <div class="knob_inner_pointer" id="knobUD-pointer"></div>
@@ -34,10 +42,12 @@
         </div>
         <div class="row" id="footer">
             <div class="row" id="title">
-                <p>Addison Teschan 2023</p>
+                <p>Copyright ©ateschan 2023</p>
             </div>
         </div>
     </div>
 </body>
-<script src="./scripts/main.js"></script> 
+<script src="scripts/main.js"></script>
+<script src="rust/js/gl.js"></script>
+<script>load("rust/target/wasm32-unknown-unknown/debug/rust.wasm");</script></body>
 </html>
