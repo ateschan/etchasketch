@@ -28,7 +28,7 @@ npm start
 5. Open your web browser and navigate to `http://localhost:3000` to start drawing!
 
 
-##Todo
+## Todo
 - [ ] Make the javascript dials interoperable with the screen
 - [ ]  Export the selected color 
 - [ ]  Have the screen turn dials depending on the position of the last click on the screen
