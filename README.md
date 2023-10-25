@@ -5,7 +5,7 @@ This project was made for the Odin Project web development bootcamp.
 
 ## Getting Started
 
-To get started with the Etch-a-Sketch project, follow these simple steps:
+To get started with the Etch-a-Sketch, follow these simple steps:
 
 1. **Clone the Repository**:
 git clone https://github.com/ateschan/etchasketch
