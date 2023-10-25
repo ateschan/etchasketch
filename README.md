@@ -29,7 +29,7 @@ npm start
 
 
 ##Todo
--[ ] Make the javascript dials interoperable with the screen
--[ ] Export the selected color 
--[ ] Have the screen turn dials depending on the position of the last click on the screen
+-[] Make the javascript dials interoperable with the screen
+-[] Export the selected color 
+-[] Have the screen turn dials depending on the position of the last click on the screen
 
