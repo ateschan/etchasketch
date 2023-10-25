@@ -1,11 +1,7 @@
 # Etch-a-Sketch Project
 
-Welcome to my Etch-a-Sketch project! This project combines WebAssembly (Wasm), Rust, and TypeScript to create a digital version of the classic Etch-a-Sketch drawing toy.
+Welcome to my Etch-a-Sketch project! This project combines WebAssembly (Wasm), Rust, and TypeScript.
 This project was made for the Odin Project web development bootcamp.
-
-## Introduction
-
-This project aims to recreate the nostalgia of the Etch-a-Sketch toy in a digital form. It leverages the power of WebAssembly, Rust, and TypeScript to provide an interactive and enjoyable drawing experience right in your web browser.
 
 ## Getting Started
 
